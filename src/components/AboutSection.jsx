@@ -9,14 +9,16 @@ export const AboutSection = () => {
           About <span className="text-primary"> Me</span>
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center"> */}
+        <div className="flex md:flex-col gap-12 items-center">
+          {/* <div className="space-y-6"> */}
+          <div className="space-y-6 md:w-3xl">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Passionate Web Developer
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
+              In my web development journey, I specialize
               in creating responsive, accessible, and performant web
               applications using modern technologies.
             </p>
@@ -35,7 +37,8 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href="/navaneeth/public/NAVANEETH K - SOFTWARE DEVELOPER.pdf"
+                download={"NAVANEETH K - SOFTWARE DEVELOPER.pdf"}
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
@@ -44,7 +47,7 @@ export const AboutSection = () => {
           </div>
 
           <div className="grid grid-cols-1 gap-6">
-            <div className="gradient-border p-6 card-hover">
+            {/* <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Code className="h-6 w-6 text-primary" />
@@ -57,8 +60,8 @@ export const AboutSection = () => {
                   </p>
                 </div>
               </div>
-            </div>
-            <div className="gradient-border p-6 card-hover">
+            </div> */}
+            {/* <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <User className="h-6 w-6 text-primary" />
@@ -71,8 +74,8 @@ export const AboutSection = () => {
                   </p>
                 </div>
               </div>
-            </div>
-            <div className="gradient-border p-6 card-hover">
+            </div> */}
+            {/* <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Briefcase className="h-6 w-6 text-primary" />
@@ -86,7 +89,7 @@ export const AboutSection = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

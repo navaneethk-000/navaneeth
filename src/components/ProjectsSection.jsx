@@ -3,32 +3,32 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "Trainer's Dashboard",
+    description: "Dashboard for Trainers to add and display their  courses.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React js", "TailwindCSS","Radix UI","Mantine UI"],
+    demoUrl: "https://shareinfo-trainer-dashboard.vercel.app/",
+    githubUrl: "https://github.com/navaneethk-000/shareinfo",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Netflix Clone",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "Netflix clone website using React js and Tailwind css",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React js", "Tailwind css"],
+    demoUrl: "https://netflix-clone-website-lac.vercel.app/",
+    githubUrl: "https://github.com/navaneethk-000/Netflix-clone-website",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Portfolio website",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "A classic and responsive portfolio website",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "Tailwind css"],
+    demoUrl: "https://navaneethk.vercel.app/",
+    githubUrl: "https://github.com/navaneethk-000/portfolio",
   },
 ];
 
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/navaneethk-000"
           >
             Check My Github <ArrowRight size={16} />
           </a>
