@@ -6,15 +6,14 @@ const projects = [
     title: "Trainer's Dashboard",
     description: "Dashboard for Trainers to add and display their  courses.",
     image: "/projects/project1.png",
-    tags: ["React js", "TailwindCSS","Radix UI","Mantine UI"],
+    tags: ["React js", "TailwindCSS", "Radix UI", "Mantine UI"],
     demoUrl: "https://shareinfo-trainer-dashboard.vercel.app/",
     githubUrl: "https://github.com/navaneethk-000/shareinfo",
   },
   {
     id: 2,
     title: "Netflix Clone",
-    description:
-      "Netflix clone website using React js and Tailwind css",
+    description: "Netflix clone website using React js and Tailwind css",
     image: "/projects/project2.png",
     tags: ["React js", "Tailwind css"],
     demoUrl: "https://netflix-clone-website-lac.vercel.app/",
@@ -23,8 +22,7 @@ const projects = [
   {
     id: 3,
     title: "Portfolio website",
-    description:
-      "A classic and responsive portfolio website",
+    description: "A classic and responsive portfolio website",
     image: "/projects/project3.png",
     tags: ["React", "Tailwind css"],
     demoUrl: "https://navaneethk.vercel.app/",
@@ -52,12 +50,18 @@ export const ProjectsSection = () => {
               key={key}
               className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
             >
-              <div className="h-48 overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                />
+              <div className="overflow-hidden">
+                <a
+                  className="w-fit flex items-center mx-auto gap-2"
+                  target="_blank"
+                  href={project.demoUrl}
+                >
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                </a>
               </div>
 
               <div className="p-6">

@@ -5,8 +5,6 @@ import {
   MapPin,
   Phone,
   Send,
-  Twitch,
-  Twitter,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
@@ -56,6 +54,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Email</h4>
                   <a
+                
                     href="navaneethkofficials@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
@@ -70,7 +69,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Phone</h4>
                   <a
-                    href="tel:+11234567890"
+                    href="tel:7907425360"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     +91 7907425360
@@ -93,7 +92,7 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="linkedin.com/in/navaneethkofficial">
+                <a href="https://www.linkedin.com/in/navaneethkofficial">
                   <Linkedin />
                 </a>
                 {/* <a href="#" target="_blank">
