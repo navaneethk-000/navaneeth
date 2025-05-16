@@ -37,8 +37,8 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href="/navaneeth/public/NAVANEETH K - SOFTWARE DEVELOPER.pdf"
-                download={"NAVANEETH K - SOFTWARE DEVELOPER.pdf"}
+                href="/navaneeth/public/NAVANEETH_K_SOFTWARE_DEVELOPER.pdf"
+                download={"NAVANEETH_K_SOFTWARE_DEVELOPER.pdf"}
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
