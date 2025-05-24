@@ -92,7 +92,11 @@ export const ContactSection = () => {
                 >
                   <Linkedin className="h-6 w-6 hover:text-primary transition-colors" />
                 </a>
-                <a href="https://www.instagram.com/n_a_v_a_n_e_t_h?igsh=Z3RzNjY3am1ib2cx" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://www.instagram.com/n_a_v_a_n_e_t_h?igsh=Z3RzNjY3am1ib2cx"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Instagram className="h-6 w-6 hover:text-primary transition-colors" />
                 </a>
               </div>
