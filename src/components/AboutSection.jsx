@@ -1,5 +1,3 @@
-import { Briefcase, Code, User } from "lucide-react";
-
 export const AboutSection = () => {
   return (
     <section id="about" className="py-24 px-4 relative">
@@ -13,14 +11,12 @@ export const AboutSection = () => {
         <div className="flex md:flex-col gap-12 items-center">
           {/* <div className="space-y-6"> */}
           <div className="space-y-6 md:w-3xl">
-            <h3 className="text-2xl font-semibold">
-              Passionate Web Developer
-            </h3>
+            <h3 className="text-2xl font-semibold">Passionate Web Developer</h3>
 
             <p className="text-muted-foreground">
-              In my web development journey, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              In my web development journey, I specialize in creating
+              responsive, accessible, and performant web applications using
+              modern technologies.
             </p>
 
             <p className="text-muted-foreground">
@@ -44,52 +40,6 @@ export const AboutSection = () => {
                 Download CV
               </a>
             </div>
-          </div>
-
-          <div className="grid grid-cols-1 gap-6">
-            {/* <div className="gradient-border p-6 card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Code className="h-6 w-6 text-primary" />
-                </div>
-                <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
-                  <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
-                  </p>
-                </div>
-              </div>
-            </div> */}
-            {/* <div className="gradient-border p-6 card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <User className="h-6 w-6 text-primary" />
-                </div>
-                <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
-                  <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
-                  </p>
-                </div>
-              </div>
-            </div> */}
-            {/* <div className="gradient-border p-6 card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Briefcase className="h-6 w-6 text-primary" />
-                </div>
-
-                <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
-                  <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
-                  </p>
-                </div>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>
