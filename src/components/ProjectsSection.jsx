@@ -1,4 +1,5 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import sellstream_img from "../assets/sellstream_img.png";
 
 const projects = [
   {
@@ -9,6 +10,15 @@ const projects = [
     tags: ["React js", "TailwindCSS", "Radix UI", "Mantine UI"],
     demoUrl: "https://shareinfo-trainer-dashboard.vercel.app/",
     githubUrl: "https://github.com/navaneethk-000/shareinfo",
+  },
+  {
+    id: 4,
+    title: "Sellstream Landing Page",
+    description: "A simple and standard Landing page",
+    image: sellstream_img,
+    tags: ["React", "Tailwind css"],
+    demoUrl: "https://sellstream-landingpage.vercel.app/",
+    githubUrl: "https://github.com/navaneethk-000/Sellstream-landingpage",
   },
   {
     id: 2,
