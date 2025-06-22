@@ -4,6 +4,15 @@ import sellstream_img from "../assets/sellstream_img.png";
 const projects = [
   {
     id: 1,
+    title: "Expense Tracker Dashboard",
+    description: "Dashboard for teacking personnel expenses.",
+    image: "../../public/projects/expense_tracker.png",
+    tags: ["React js", "TailwindCSS","Context API","useReducer"],
+    demoUrl: "https://expense-tracker-seven-orcin.vercel.app/",
+    githubUrl: "https://github.com/navaneethk-000/Expense-Tracker",
+  },
+  {
+    id: 2,
     title: "Trainer's Dashboard",
     description: "Dashboard for Trainers to add and display their  courses.",
     image: "/projects/project1.png",
@@ -12,7 +21,7 @@ const projects = [
     githubUrl: "https://github.com/navaneethk-000/shareinfo",
   },
   {
-    id: 4,
+    id: 3,
     title: "Sellstream Landing Page",
     description: "A simple and standard Landing page",
     image: sellstream_img,
@@ -21,7 +30,7 @@ const projects = [
     githubUrl: "https://github.com/navaneethk-000/Sellstream-landingpage",
   },
   {
-    id: 2,
+    id: 4,
     title: "Netflix Clone",
     description: "Netflix clone website using React js and Tailwind css",
     image: "/projects/project2.png",
@@ -30,7 +39,7 @@ const projects = [
     githubUrl: "https://github.com/navaneethk-000/Netflix-clone-website",
   },
   {
-    id: 3,
+    id: 5,
     title: "Portfolio website",
     description: "A classic and responsive portfolio website",
     image: "/projects/project3.png",
