@@ -6,8 +6,8 @@ const projects = [
     id: 1,
     title: "Expense Tracker Dashboard",
     description: "Dashboard for teacking personnel expenses.",
-    image: "../../public/projects/expense_tracker.png",
-    tags: ["React js", "TailwindCSS","Context API","useReducer"],
+    image: "/projects/expense_tracker.png",
+    tags: ["React js", "TailwindCSS", "Context API", "useReducer"],
     demoUrl: "https://expense-tracker-seven-orcin.vercel.app/",
     githubUrl: "https://github.com/navaneethk-000/Expense-Tracker",
   },
@@ -85,8 +85,11 @@ export const ProjectsSection = () => {
 
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {project.tags.map((tag,index) => (
-                    <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground" key={index}>
+                  {project.tags.map((tag, index) => (
+                    <span
+                      className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground"
+                      key={index}
+                    >
                       {tag}
                     </span>
                   ))}
